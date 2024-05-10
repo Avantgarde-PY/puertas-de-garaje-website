@@ -28,7 +28,7 @@ var translations = {
         // Add more English translations here
         "navbar.brand": "Avantgarde",
         "navbar.home": "Home",
-        "navbar.contact": "Contact",
+        "navbar.store": "Products",
         "navbar.about": "About Us",
         "navbar.disabled": "About",
         "navbar.language": "Language",
@@ -54,7 +54,7 @@ var translations = {
         // Add more German translations here
         "navbar.brand": "Avantgarde",
         "navbar.home": "Startseite",
-        "navbar.contact": "Kontakt",
+        "navbar.store": "Produkte",
         "navbar.about": "Über uns",
         "navbar.disabled": "Über",
         "navbar.language": "Sprache",
@@ -79,7 +79,7 @@ var translations = {
         // Add more Spanish translations here
         "navbar.brand": "Avantgarde",
         "navbar.home": "Inicio",
-        "navbar.contact": "Contacto",
+        "navbar.store": "Productos",
         "navbar.about": "Sobre nosotros",
         "navbar.disabled": "Acerca de",
         "navbar.language": "Idioma",
