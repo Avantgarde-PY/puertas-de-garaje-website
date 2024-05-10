@@ -22,7 +22,7 @@ function setCookie(name, value, days) {
   }
   
   // Reference the container where cards will be appended
-  const container = document.getElementById('dynamic-cards-container');
+  const container = document.getElementById('store');
   
   // Create a row element
   const row = document.createElement('div');
