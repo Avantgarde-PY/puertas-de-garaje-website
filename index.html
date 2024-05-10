@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/squarely.css">
     <!--common.css  -->
     <link rel="stylesheet" href="css/common.css">
-    <title>Avantgarde</title>
+    <title data-i18n="navbar.brand">Avantgarde</title>
     <style>
         html {
             scroll-behavior: smooth;
@@ -19,7 +19,7 @@
 <body>
 <!--navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">Avantgarde</a>
+    <a class="navbar-brand" href="#" data-i18n="navbar.brand">Avantgarde</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,25 +27,37 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" data-i18n="navbar.home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">Kontakt</a>
+                <a class="nav-link" href="#about" data-i18n="navbar.contact">Kontakt</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contact">Über Uns</a>
+                <a class="nav-link" href="#contact" data-i18n="navbar.about">Über Uns</a>
+            </li>
+            <!-- Language selector -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-i18n="navbar.language" style="padding-right: 10px;">
+                    Language
+                </a>
+                <div class="dropdown-menu" aria-labelledby="languageDropdown" style="padding-right: 30px;">
+                    <a class="dropdown-item" href="#" data-lang="de"><img src="https://www.countryflags.com/wp-content/uploads/germany-flag-png-large.png" alt="DE" width="30" height="20"> Deutsch</a>
+                    <a class="dropdown-item" href="#" data-lang="es"><img src="https://www.countryflags.com/wp-content/uploads/paraguay-flag-png-large.png" alt="ES" width="30" height="20"> Español</a>
+                    <a class="dropdown-item" href="#" data-lang="en"><img src="https://www.countryflags.com/wp-content/uploads/united-kingdom-flag-png-large.png" alt="EN" width="30" height="20"> English</a>                                      
+                </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" data-i18n="navbar.disabled">About</a>
             </li>
         </ul>
     </div>
 </nav>
 
+
 <div class="hero-header" style="background-image: url('img/business.jpg')">
     <div class="header">
-        <h1>Gemeinsam schützen wir, was Ihnen lieb ist.</h1>
-        <p>Willkommen bei Avantgarde - Ihr Partner für hochwertige Garagentore und mehr!</p>
+        <h1 data-i18n="welcome">Gemeinsam schützen wir, was Ihnen lieb ist.</h1>
+        <p data-i18n="welcome-text">Willkommen bei Avantgarde - Ihr Partner für hochwertige Garagentore und mehr!</p>        
     </div>
 </div>
 
@@ -53,11 +65,11 @@
 <div class="container mb-4 mt-4" id="about">
     <div class="row">
         <div class="col-md-8 mb-3">
-            <h2>Über Uns</h2>
+            <h2 data-i18n="about.title">Über Uns</h2>
             <hr>
-            <p>Willkommen bei uns! Wir verstehen, dass Ihre Garage mehr ist als nur ein Ort, um Ihr Fahrzeug zu parken. Sie ist ein Schutzraum vor den Elementen und Diebstahl. Deshalb bieten wir eine breite Palette hochwertiger Garagentore an, die Ihren Bedürfnissen gerecht werden.</p>
-            <p>Unsere Sektionaltore sind nicht nur komfortabel und platzsparend, sondern auch ästhetisch ansprechend. Von eleganten weißen Toren bis hin zu stilvollen grauen Designs - wir haben für jeden Geschmack etwas dabei. Und das Beste daran? Unsere Tore sind nicht nur schön anzusehen, sondern auch langlebig und rostbeständig. Entdecken Sie noch heute, wie wir Ihre Garage zum Schmuckstück Ihres Hauses machen können!</p>
-            <a href="https://t.me/+QzzMraKjavY3YzQ0" class="btn btn-primary" target="_blank">Kontakt</a>
+            <p data-i18n="about.content">Willkommen bei uns! Wir verstehen, dass Ihre Garage mehr ist als nur ein Ort, um Ihr Fahrzeug zu parken. Sie ist ein Schutzraum vor den Elementen und Diebstahl. Deshalb bieten wir eine breite Palette hochwertiger Garagentore an, die Ihren Bedürfnissen gerecht werden.</p>
+            <p data-i18n="about.more">Unsere Sektionaltore sind nicht nur komfortabel und platzsparend, sondern auch ästhetisch ansprechend. Von eleganten weißen Toren bis hin zu stilvollen grauen Designs - wir haben für jeden Geschmack etwas dabei. Und das Beste daran? Unsere Tore sind nicht nur schön anzusehen, sondern auch langlebig und rostbeständig. Entdecken Sie noch heute, wie wir Ihre Garage zum Schmuckstück Ihres Hauses machen können!</p>
+            <a href="https://t.me/+QzzMraKjavY3YzQ0" class="btn btn-primary" target="_blank" data-i18n="about.contact">Kontakt</a>
         </div>
         <div class="col-md-4 align-items-center d-md-flex">
             <!--<img class="img-fluid" src="img/tor.jpg" alt="tor">-->
@@ -72,11 +84,11 @@
             <div class="card">
                 <img class="card-img-top" src="img/1.jpg" alt="">
                 <div class="card-body">
-                    <h3>Entdecken Sie unsere Geschichte</h3>
-                    <p>Bei Avantgarde geht es um mehr als nur um Garagenlösungen. Wir möchten unsere Geschichte mit Ihnen teilen. Angefangen mit einer einfachen Mission: hochwertige Garagentore anzubieten, die nahtlos in Ihren Lebensstil passen. Heute sind wir immer noch auf dieser Mission unterwegs und bieten eine Vielzahl von Produkten an, die Ihre Erwartungen übertreffen sollen. Tauchen Sie ein in unsere Geschichte, erfahren Sie, was uns antreibt, und warum Hausbesitzer überall uns vertrauen.</p>
+                    <h3 data-i18n="card1.title">Entdecken Sie unsere Geschichte</h3>
+                    <p data-i18n="card1.content">Bei Avantgarde geht es um mehr als nur um Garagenlösungen. Wir möchten unsere Geschichte mit Ihnen teilen. Angefangen mit einer einfachen Mission: hochwertige Garagentore anzubieten, die nahtlos in Ihren Lebensstil passen. Heute sind wir immer noch auf dieser Mission unterwegs und bieten eine Vielzahl von Produkten an, die Ihre Erwartungen übertreffen sollen. Tauchen Sie ein in unsere Geschichte, erfahren Sie, was uns antreibt, und warum Hausbesitzer überall uns vertrauen.</p>
                 </div>
                 <div class="card-footer">
-                    <!--<a href="https://t.me/+QzzMraKjavY3YzQ0" class="btn btn-primary" target="_blank">Entdecken Sie mehr</a>-->
+                    <!--<a href="https://t.me/+QzzMraKjavY3YzQ0" class="btn btn-primary" target="_blank" data-i18n="card1.discover">Entdecken Sie mehr</a>-->
                 </div>
             </div>
         </div>
@@ -84,11 +96,11 @@
             <div class="card">
                 <img class="card-img-top" src="img/2.jpg" alt="">
                 <div class="card-body">
-                    <h3>Was machen wir?</h3>
-                    <p>Bei Avantgarde geht es darum, Ihr Zuhause sicherer und stilvoller zu machen. Von schlanken Sektionaltoren bis hin zu robusten Rolltoren – unsere Produkte sind darauf ausgerichtet, das Aussehen und die Funktion Ihrer Immobilie zu verbessern. Aber es geht nicht nur um das Aussehen – unsere Tore sind robust gebaut, um den Elementen standzuhalten und unerwünschte Besucher fernzuhalten, damit Sie beruhigt sein können. Mit einem Fokus auf Qualität, Innovation und Kundenzufriedenheit sind wir hier, um Ihre Garage in einen Raum zu verwandeln, den Sie lieben werden.</p>
+                    <h3 data-i18n="card2.title">Was machen wir?</h3>
+                    <p data-i18n="card2.content">Bei Avantgarde geht es darum, Ihr Zuhause sicherer und stilvoller zu machen. Von schlanken Sektionaltoren bis hin zu robusten Rolltoren – unsere Produkte sind darauf ausgerichtet, das Aussehen und die Funktion Ihrer Immobilie zu verbessern. Aber es geht nicht nur um das Aussehen – unsere Tore sind robust gebaut, um den Elementen standzuhalten und unerwünschte Besucher fernzuhalten, damit Sie beruhigt sein können. Mit einem Fokus auf Qualität, Innovation und Kundenzufriedenheit sind wir hier, um Ihre Garage in einen Raum zu verwandeln, den Sie lieben werden.</p>
                 </div>
                 <div class="card-footer">
-                    <!--<a href="https://t.me/+QzzMraKjavY3YzQ0" class="btn btn-primary" target="_blank">Entdecken Sie mehr</a>-->
+                    <!--<a href="https://t.me/+QzzMraKjavY3YzQ0" class="btn btn-primary" target="_blank" data-i18n="card2.discover">Entdecken Sie mehr</a>-->
                 </div>
             </div>
         </div>
@@ -96,20 +108,23 @@
             <div class="card">
                 <img class="card-img-top" src="img/3.jpg" alt="">
                 <div class="card-body">
-                    <h3>Kontaktieren Sie uns</h3>
-                    <p>Bereit, Ihre Garage aufzurüsten? Haben Sie Fragen zu unseren Produkten oder Dienstleistungen? Wir sind hier, um zu helfen. Nehmen Sie noch heute Kontakt mit uns auf, um Ihre Bedürfnisse zu besprechen und zu sehen, wie wir Ihnen helfen können. Egal, ob Sie Beratung, ein Angebot oder einfach nur einen freundlichen Plausch suchen – wir sind entschlossen, die Unterstützung zu bieten, die Sie benötigen. Kontaktieren Sie uns telefonisch, per E-Mail oder besuchen Sie unseren Ausstellungsraum – wir freuen uns darauf, von Ihnen zu hören!</p>
+                    <h3 data-i18n="card3.title">Kontaktieren Sie uns</h3>
+                    <p data-i18n="card3.content">Bereit, Ihre Garage aufzurüsten? Haben Sie Fragen zu unseren Produkten oder Dienstleistungen? Wir sind hier, um zu helfen. Nehmen Sie noch heute Kontakt mit uns auf, um Ihre Bedürfnisse zu besprechen und zu sehen, wie wir Ihnen helfen können. Egal, ob Sie Beratung, ein Angebot oder einfach nur einen freundlichen Plausch suchen – wir sind entschlossen, die Unterstützung zu bieten, die Sie benötigen. Kontaktieren Sie uns telefonisch, per E-Mail oder besuchen Sie unseren Ausstellungsraum – wir freuen uns darauf, von Ihnen zu hören!</p>
                 </div>
                 <div class="card-footer">
-                    <!--<a href="https://t.me/+QzzMraKjavY3YzQ0" class="btn btn-primary" target="_blank">Entdecken Sie mehr</a>-->
+                    <!--<a href="https://t.me/+QzzMraKjavY3YzQ0" class="btn btn-primary" target="_blank" data-i18n="card3.discover">Entdecken Sie mehr</a>-->
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Container for dynamically generated cards -->
+<div id="dynamic-cards-container" class="container-fluid mb-4"></div>
+
 <!--footer-->
 <div class="py-3 bg-light text-center">
-    <p class="m-0">&copy; 2024 Avantgarde. All rights reserved.</p>
+    <p class="m-0" data-i18n="footer">&copy; 2024 Avantgarde. All rights reserved.</p>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -122,5 +137,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+<script src="js/translate.js"></script>
+<script src="js/cards.js"></script>
+
 </body>
 </html>

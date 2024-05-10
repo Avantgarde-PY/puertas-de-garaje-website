@@ -1,0 +1,41 @@
+[
+  {
+    "image": "/img/1.jpg",
+    "title": {
+      "en": "Title 1",
+      "de": "Titel 1",
+      "es": "Título 1"
+    },
+    "content": {
+      "en": "Description for card 1",
+      "de": "Beschreibung für Karte 1",
+      "es": "Descripción para tarjeta 1"
+    }
+  },
+  {
+    "image": "/img/2.jpg",
+    "title": {
+      "en": "Title 2",
+      "de": "Titel 2",
+      "es": "Título 2"
+    },
+    "content": {
+      "en": "Description for card 2",
+      "de": "Beschreibung für Karte 2",
+      "es": "Descripción para tarjeta 2"
+    }
+  },
+  {
+    "image": "/img/3.jpg",
+    "title": {
+      "en": "Title 3",
+      "de": "Titel 3",
+      "es": "Título 3"
+    },
+    "content": {
+      "en": "Description for card 3",
+      "de": "Beschreibung für Karte 3",
+      "es": "Descripción para tarjeta 3"
+    }
+  }
+]
