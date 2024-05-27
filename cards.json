@@ -1,41 +1,93 @@
 [
   {
-    "image": "/img/1.jpg",
+    "image": "/img/m-sicke-woodgrain.png",
     "title": {
-      "en": "Title 1",
-      "de": "Titel 1",
-      "es": "Título 1"
+      "en": "Garage Door BASIC M-Sicke Woodgrain Sectional Door Complete Set.",
+      "de": "Garagentor BASIC M-Sicke Woodgrain Sektionaltor Komplettset",
+      "es": "Puerta de garaje BASICO L-Sicke imitación madera puerta seccional set completo"
     },
     "content": {
-      "en": "Description for card 1",
-      "de": "Beschreibung für Karte 1",
-      "es": "Descripción para tarjeta 1"
+      "en": "<b>Heights:</b> 2000mm, 2125mm, 2250mm, 2500mm<br><b>Widths:</b> 2375mm, 2500mm, 2750mm, 3000mm<br><b>Colors:</b> Anthracite, White",
+      "de": "<b>Höhen:</b> 2000mm, 2125mm, 2250mm, 2500mm<br><b>Breiten:</b> 2375mm, 2500mm, 2750mm, 3000mm<br><b>Farben:</b> Anthrazit, Weiß",
+      "es": "<b>Alturas:</b> 2000mm, 2125mm, 2250mm, 2500mm<br><b>Anchos:</b> 2375mm, 2500mm, 2750mm, 3000mm<br><b>Colores:</b> Antracita, Blanco"
     }
   },
   {
-    "image": "/img/2.jpg",
+    "image": "/img/l-sicke-glatt.png",
     "title": {
-      "en": "Title 2",
-      "de": "Titel 2",
-      "es": "Título 2"
+      "en": "Garage Door BASIC L-Sicke smooth Sectional Door Complete Set.",
+      "de": "Garagentor BASIC L-Sicke glatt Sektionaltor Komplettset",
+      "es": "Puerta de garaje BASICO L-Sicke suave puerta seccional set completo"
     },
     "content": {
-      "en": "Description for card 2",
-      "de": "Beschreibung für Karte 2",
-      "es": "Descripción para tarjeta 2"
+      "en": "<b>Heights:</b> 2000mm, 2125mm, 2250mm, 2500mm<br><b>Widths:</b> 2375mm, 2500mm, 2750mm, 3000mm<br><b>Colors:</b> Anthracite, White",
+      "de": "<b>Höhen:</b> 2000mm, 2125mm, 2250mm, 2500mm<br><b>Breiten:</b> 2375mm, 2500mm, 2750mm, 3000mm<br><b>Farben:</b> Anthrazit, Weiß",
+      "es": "<b>Alturas:</b> 2000mm, 2125mm, 2250mm, 2500mm<br><b>Anchos:</b> 2375mm, 2500mm, 2750mm, 3000mm<br><b>Colores:</b> Antracita, Blanco"
     }
   },
   {
-    "image": "/img/3.jpg",
+    "image": "img/antriebsschiene.png",
     "title": {
-      "en": "Title 3",
-      "de": "Titel 3",
-      "es": "Título 3"
+      "en": "Comfort drive rail for Select-Line, 3-piece",
+      "de": "Comfort Antriebsschiene für Select-Line 3-Teilig",
+      "es": "Carril de accionamiento Comfort para Select-Line de 3 piezas"
     },
     "content": {
-      "en": "Description for card 3",
-      "de": "Beschreibung für Karte 3",
-      "es": "Descripción para tarjeta 3"
+      "en": "<b>Heights:</b> 2125mm, 2320mm, 3010mm",
+      "de": "<b>Höhen:</b> 2125mm, 2320mm, 3010mm",
+      "es": "<b>Alturas:</b> 2125mm, 2320mm, 3010mm"
+    }
+  },
+  {
+    "image": "/img/antrieb1.png",
+    "title": {
+      "en": "Garage door motor",
+      "de": "Garagentor Antrieb",
+      "es": "Motor de puerta de garaje"
+    },
+    "content": {
+      "en": "",
+      "de": "",
+      "es": ""
+    }
+  },
+  {
+    "image": "/img/antrieb2.png",
+    "title": {
+      "en": "Garage door motor Select-Line 8",
+      "de": "Antrieb Select-Line 8",
+      "es": "Motor de puerta de garaje Select-Line 8"
+    },
+    "content": {
+      "en": "",
+      "de": "",
+      "es": ""
+    }
+  },
+  {
+    "image": "/img/handsender.png",
+    "title": {
+      "en": "Garage door hand transmitter",
+      "de": "Garagentor Handsender",
+      "es": "Emisor manual para puerta de garaje"
+    },
+    "content": {
+      "en": "",
+      "de": "",
+      "es": ""
+    }
+  },
+  {
+    "image": "/img/notentriegelungsschloss.png",
+    "title": {
+      "en": "Emergency release lock for sectional doors",
+      "de": "Notentriegelungsschloss für Sektionaltore",
+      "es": "Cerradura de desbloqueo de emergencia para puertas seccionales"
+    },
+    "content": {
+      "en": "",
+      "de": "",
+      "es": ""
     }
   }
 ]

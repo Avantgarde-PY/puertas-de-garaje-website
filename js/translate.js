@@ -44,7 +44,7 @@ var translations = {
         "card2.content": "At Garagen Puertas, it's about making your home safer and more stylish. From sleek sectional doors to sturdy roller shutters - our products are designed to improve the appearance and function of your property. But it's not just about looks - our doors are built tough to withstand the elements and keep unwanted visitors out, so you can rest easy. With a focus on quality, innovation, and customer satisfaction, we're here to transform your garage into a space you'll love.",
         "card3.title": "Contact Us",
         "card3.content": "Ready to upgrade your garage? Have questions about our products or services? We're here to help. Contact us today to discuss your needs and see how we can assist you. Whether you're seeking advice, a quote, or just a friendly chat - we're committed to providing the support you need. Reach out by phone, email, or visit our showroom - we look forward to hearing from you!",
-        "footer": "© 2024 Garagen Puertas. All rights reserved."
+        "footer": "© 2024 Avantgarde. All rights reserved."
     },
     de: {
         welcome: "Gemeinsam schützen wir, was Ihnen lieb ist.",
@@ -68,7 +68,7 @@ var translations = {
         "card2.content": "Bei Garagen Puertas geht es darum, Ihr Zuhause sicherer und stilvoller zu machen. Von schlanken Sektionaltoren bis hin zu robusten Rolltoren – unsere Produkte sind darauf ausgerichtet, das Aussehen und die Funktion Ihrer Immobilie zu verbessern. Aber es geht nicht nur um das Aussehen – unsere Tore sind robust gebaut, um den Elementen standzuhalten und unerwünschte Besucher fernzuhalten, damit Sie beruhigt sein können. Mit einem Fokus auf Qualität, Innovation und Kundenzufriedenheit sind wir hier, um Ihre Garage in einen Raum zu verwandeln, den Sie lieben werden.",
         "card3.title": "Kontaktieren Sie uns",
         "card3.content": "Bereit, Ihre Garage aufzurüsten? Haben Sie Fragen zu unseren Produkten oder Dienstleistungen? Wir sind hier, um zu helfen. Nehmen Sie noch heute Kontakt mit uns auf, um Ihre Bedürfnisse zu besprechen und zu sehen, wie wir Ihnen helfen können. Egal, ob Sie Beratung, ein Angebot oder einfach nur einen freundlichen Plausch suchen – wir sind entschlossen, die Unterstützung zu bieten, die Sie benötigen. Kontaktieren Sie uns telefonisch, per E-Mail oder besuchen Sie unseren Ausstellungsraum – wir freuen uns darauf, von Ihnen zu hören.",
-        "footer": "© 2024 Garagen Puertas. Alle Rechte vorbehalten."
+        "footer": "© 2024 Avantgarde. Alle Rechte vorbehalten."
     },
     es: {
         welcome: "Juntos protegemos lo que amas.",
@@ -92,7 +92,7 @@ var translations = {
         "card2.content": "En Garagen Puertas se trata de hacer que tu hogar sea más seguro y elegante. Desde elegantes puertas seccionales hasta robustos persianas enrollables, nuestros productos están diseñados para mejorar la apariencia y la función de tu propiedad. Pero no se trata solo de apariencia, nuestras puertas están construidas para resistir los elementos y mantener alejados a los visitantes no deseados, para que puedas descansar tranquilo. Con un enfoque en la calidad, la innovación y la satisfacción del cliente, estamos aquí para transformar tu garaje en un espacio que amarás.",
         "card3.title": "Contáctenos",
         "card3.content": "¿Listo para mejorar tu garaje? ¿Tienes preguntas sobre nuestros productos o servicios? Estamos aquí para ayudar. Contáctanos hoy para discutir tus necesidades y ver cómo podemos ayudarte. Ya sea que estés buscando asesoramiento, un presupuesto o simplemente una charla amistosa, estamos comprometidos a brindar el apoyo que necesitas. Comunícate por teléfono, correo electrónico o visita nuestro showroom, ¡esperamos saber de ti!",
-        "footer": "© 2024 Garagen Puertas. Todos los derechos reservados."
+        "footer": "© 2024 Avantgarde. Todos los derechos reservados."
     }
 };
 
@@ -121,5 +121,6 @@ function setLanguage(lang) {
     var lang = event.target.getAttribute("data-lang");
     if (lang) {
       setLanguage(lang);
+      location.reload();
     }
   });
