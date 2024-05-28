@@ -1,6 +1,6 @@
 [
   {
-    "image": "/img/m-sicke-woodgrain.png",
+    "image": "/img/products/m-sicke-woodgrain.png",
     "title": {
       "en": "Garage Door BASIC M-Sicke Woodgrain Sectional Door Complete Set.",
       "de": "Garagentor BASIC M-Sicke Woodgrain Sektionaltor Komplettset",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "image": "/img/l-sicke-glatt.png",
+    "image": "/img/products/l-sicke-glatt.png",
     "title": {
       "en": "Garage Door BASIC L-Sicke smooth Sectional Door Complete Set.",
       "de": "Garagentor BASIC L-Sicke glatt Sektionaltor Komplettset",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "image": "img/antriebsschiene.png",
+    "image": "/img/products/antriebsschiene.png",
     "title": {
       "en": "Comfort drive rail for Select-Line, 3-piece",
       "de": "Comfort Antriebsschiene für Select-Line 3-Teilig",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "image": "/img/antrieb1.png",
+    "image": "/img/products/antrieb1.png",
     "title": {
       "en": "Garage door motor",
       "de": "Garagentor Antrieb",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "image": "/img/antrieb2.png",
+    "image": "/img/products/antrieb2.png",
     "title": {
       "en": "Garage door motor Select-Line 8",
       "de": "Antrieb Select-Line 8",
@@ -65,7 +65,7 @@
     }
   },
   {
-    "image": "/img/handsender.png",
+    "image": "/img/products/handsender.png",
     "title": {
       "en": "Garage door hand transmitter",
       "de": "Garagentor Handsender",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "image": "/img/notentriegelungsschloss.png",
+    "image": "/img/products/notentriegelungsschloss.png",
     "title": {
       "en": "Emergency release lock for sectional doors",
       "de": "Notentriegelungsschloss für Sektionaltore",
