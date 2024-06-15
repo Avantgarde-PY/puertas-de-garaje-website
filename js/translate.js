@@ -59,7 +59,7 @@ var translations = {
         "navbar.lang.es": "Spanisch",
         "navbar.lang.en": "Englisch",
         "about.title": "Über Uns",
-        "about.content": "Willkommen bei Puertas de Garaje in Paraguay! Wir verstehen, dass Ihre Garage mehr ist als nur ein Ort, um Ihr Fahrzeug zu parken. Sie ist ein Schutzraum vor den Elementen und Diebstahl. Deshalb bieten wir eine breite Palette hochwertiger Garagentore an, die Ihren Bedürfnissen gerecht werden.",
+        "about.content": "Willkommen bei Puertas de Garaje in Paraguay! Wir verstehen, dass Ihre Garage mehr ist als nur ein Ort, um Ihr Fahrzeug zu parken. Sie ist ein Schutzraum vor widrigen Elementen und Diebstahl. Deshalb bieten wir eine breite Palette hochwertiger Garagentore an, die Ihren Bedürfnissen gerecht werden.",
         "about.more": "Unsere Sektionaltore sind nicht nur komfortabel und platzsparend, sondern auch ästhetisch ansprechend. Von eleganten weißen Toren bis hin zu stilvollen grauen Designs - wir haben für jeden Geschmack etwas dabei. Und das Beste daran? Unsere Tore sind nicht nur schön anzusehen, sondern auch langlebig und rostbeständig. Entdecken Sie noch heute, wie wir Ihre Garage zum Schmuckstück Ihres Hauses machen können! <br><br> <b>Tel: <b><u>+595 983 396509<u>",
         "about.contact": "Kontakt",
         "card1.title": "Entdecken Sie unsere Geschichte",
